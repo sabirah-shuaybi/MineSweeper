@@ -1,14 +1,14 @@
 # MineSweeper
 
-__MineSweeper consists of 4 distinct java classes and is a simplified reconstruction of the commonly known Minesweeper game.__
+__MineSweeper consists of four distinct java classes that construct a simplified version of the commonly known Minesweeper game. This game contains three different levels - Easy, Medium and Hard - with a built-in timer at the start of a new game.__
 
 __MineSweeper Class:__
 
-The main responsibliity of the __MineSweeper class__ is to define event handlers. This includes,
-distinguishing between a right and left click and delegating these events to the Grid class,
-which handles them accordingly. MineSweeper also displays and activates the New Game button
-(swing component) and also displays, formats and updates the 
-"Mines found: __/__" label.
+The main responsibliity of the __MineSweeper class__ is to define event handlers. 
+This includes, distinguishing between a right and left click and delegating these 
+events to the Grid class, which handles them accordingly. MineSweeper also displays 
+and activates the New Game button (swing component) and also displays, formats and 
+updates the "Mines found: __/__" label.
 
 __Grid Class:__
 

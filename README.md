@@ -7,7 +7,8 @@ __MineSweeper Class:__
 The main responsibliity of the __MineSweeper class__ is to define event handlers. This includes,
 distinguishing between a right and left click and delegating these events to the Grid class,
 which handles them accordingly. MineSweeper also displays and activates the New Game button
-(swing component) and also displays, formats and updates the "Mines found: __/__" label.
+(swing component) and also displays, formats and updates the 
+"Mines found: __/__" label.
 
 __Grid Class:__
 
@@ -20,6 +21,15 @@ and distributes this value throughout its methods to construct a larger, more ch
 with more randomly placed mines (if player chooses harder levels).
 
 __GridCell Class:__
+
+The __GridCell class__ stores and remembers information about an individual cell. This information
+includes aspects such as whether the cell contains a mine, the number of neighbors that do contain
+mines in a non-mine cell, whether the cell has been flagged, whether the cell has been revealed, or
+exploded etc. The class also takes care of all the formatting (centering, positioning) required
+with each possible component in a cell (mine, flag, neighbor count, white backdrop for neighbor count
+and exploded backdrop for exploded cell).
+
+__Timer Class:__
 
 
 __@author Sabirah Shuaybi__

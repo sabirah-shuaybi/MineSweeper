@@ -1,6 +1,6 @@
 # MineSweeper
 
-MineSweeper consists of 4 distinct java classes and is a simplified reconstruction of the commonly known Minesweeper game. 
+__MineSweeper consists of 4 distinct java classes and is a simplified reconstruction of the commonly known Minesweeper game.__
 
 __MineSweeper Class:__
 

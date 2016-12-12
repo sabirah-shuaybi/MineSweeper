@@ -31,6 +31,8 @@ and exploded backdrop for exploded cell).
 
 __Timer Class:__
 
+The __Timer class__ is an extention of active object. This class is responsible for starting a timer
+and formatting the time elapsed into a minute:second format (00:00).
 
 __@author Sabirah Shuaybi__
 

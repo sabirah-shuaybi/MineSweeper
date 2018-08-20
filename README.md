@@ -1,6 +1,6 @@
 # MineSweeper
 
-__MineSweeper consists of four distinct java classes that construct a simplified version of the commonly known Minesweeper game. This game contains three different levels - Easy, Medium and Hard - with a built-in timer at the start of a new game.__
+__MineSweeper is a simplified version of the commonly known Minesweeper game. This game contains three different levels - Easy, Medium and Hard - with a built-in timer at the start of a new game.__
 
 __MineSweeper Class:__
 
